@@ -1,13 +1,11 @@
 #navbar{
-    ul{
-        list-style-type: none;  
-        display: flex;
-        flex-flow: row nowrap;
-        justify-content: center;
+    list-style-type: none;  
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    padding: 12px 0;
 
-        li{
-            padding: 0 10px 0 10px;
-        }
+    li{
+        padding: 0 10px 0 10px;
     }
-    // border: 1px solid red;
 }
