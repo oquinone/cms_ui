@@ -7,7 +7,7 @@ import '../Styling/login.scss';
 
 const Login = () => {
     return (
-        <div>
+        <div id="form-container">
             <Form id="form">
                 <Form.Group className="mb-3" controlId="formBasicEmail">
                     <Form.Label>Email address</Form.Label>
@@ -20,9 +20,6 @@ const Login = () => {
                 <Form.Group className="mb-3" controlId="formBasicPassword">
                     <Form.Label>Password</Form.Label>
                     <Form.Control type="password" placeholder="Password" />
-                </Form.Group>
-                <Form.Group className="mb-3" controlId="formBasicCheckbox">
-                    <Form.Check type="checkbox" label="Check me out" />
                 </Form.Group>
                 <UiButton variant="primary" type="submit" title="Submit"/>
             </Form>

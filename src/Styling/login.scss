@@ -1,9 +1,16 @@
-#form{
-     border: 1px solid red;
-     margin: 25px 10%;
-     padding: 25px 50px;
-     label{
-          display: flex;
-          flex-flow: column nowrap;
+#form-container{
+     display: flex;
+     flex-flow: column nowrap;
+     justify-content: center;
+     padding: 50px 25%;
+     height: 100vh;
+     #form{
+          padding: 60px 50px;
+          background-color:gainsboro;
+          border-radius: 6px;
+          label{
+               display: flex;
+               flex-flow: column nowrap;
+          }
      }
 }
