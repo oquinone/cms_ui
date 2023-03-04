@@ -5,7 +5,7 @@ import img1 from "../Images/dress.jpeg";
 import img2 from "../Images/dress2.jpeg";
 import img3 from "../Images/dress3.jpeg";
 import img4 from "../Images/dress4.jpeg";
-// import CardComponent from "../Components/cards";
+import UiButton from "../Components/buttons";
 import "../Styling/dashboard.scss";
 
 const Dashboard = () => {
@@ -32,6 +32,11 @@ const Dashboard = () => {
               <Card.Title>Best Shoes</Card.Title>
               <Card.Text>The worlds fastest shoes in the planet</Card.Text>
             </Card.Body>
+            <UiButton
+              title="Add To Card"
+              variant="outline-primary"
+              size="small"
+            />
           </Card.Body>
         </Card>
 
@@ -42,6 +47,11 @@ const Dashboard = () => {
               <Card.Title>Best Shoes</Card.Title>
               <Card.Text>The worlds fastest shoes in the planet</Card.Text>
             </Card.Body>
+            <UiButton
+              title="Add To Card"
+              variant="outline-primary"
+              size="small"
+            />
           </Card.Body>
         </Card>
 
@@ -52,6 +62,11 @@ const Dashboard = () => {
               <Card.Title>Best Shoes</Card.Title>
               <Card.Text>The worlds fastest shoes in the planet</Card.Text>
             </Card.Body>
+            <UiButton
+              title="Add To Card"
+              variant="outline-primary"
+              size="small"
+            />
           </Card.Body>
         </Card>
 
@@ -62,6 +77,11 @@ const Dashboard = () => {
               <Card.Title>Best Shoes</Card.Title>
               <Card.Text>The worlds fastest shoes in the planet</Card.Text>
             </Card.Body>
+            <UiButton
+              title="Add To Card"
+              variant="outline-primary"
+              size="small"
+            />
           </Card.Body>
         </Card>
       </div>
