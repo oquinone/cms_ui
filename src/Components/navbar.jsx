@@ -1,22 +1,21 @@
-import Nav from "react-bootstrap/Nav";
+import Container from "react-bootstrap/Container";
+import Navbar from "react-bootstrap/Navbar";
 
 const Navbar = (props) => {
-  // const {
-  //     title,
-  //     variant = 'Primary',
-  //     href = '',
-  //     type = '',
-  //     value = '',
-  //     size = '',
-  // } = props;
-  // const inputProps = {
-  //     variant,
-  //     href,
-  //     type,
-  //     value,
-  //     size
-  // }
-  // return (<Button {...inputProps}>{title}</Button>)
+  const { expand, variant, bg = "light" } = props;
+
+  const navbarInputProps = {
+    expand,
+    variant,
+    bg,
+  };
+
+  const navbarBrandInputProps = {};
+  return (
+    <Container>
+      <Navbar />
+    </Container>
+  );
 };
 
 export default Navbar;

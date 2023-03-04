@@ -1,0 +1,22 @@
+#dashboard {
+  #listings {
+    display: flex;
+    flex-flow: row nowrap;
+
+    .listing-item {
+      // min-width: 25%;
+      margin: 0 auto;
+      object-fit: cover;
+      border-radius: 55;
+      margin: 0 50px;
+      height: 50vh;
+      // border: 1px solid green;
+
+      .image-style {
+        object-fit: cover;
+        height: 220px;
+        width: 220px;
+      }
+    }
+  }
+}
