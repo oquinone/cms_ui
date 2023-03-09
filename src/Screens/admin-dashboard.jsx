@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+// import React, { useEffect, useState } from "react";
 import Card from "react-bootstrap/Card";
 import Navbar from "./navbar";
 import img1 from "../Images/dress.jpeg";
@@ -6,18 +6,18 @@ import img2 from "../Images/dress2.jpeg";
 import img3 from "../Images/dress3.jpeg";
 import img4 from "../Images/dress4.jpeg";
 import UiButton from "../Components/buttons";
-import { getApi } from "../Api/call";
+// import { getApi } from "../Api/call";
 import "../Styling/dashboard.scss";
 
 const AdminDashboard = () => {
-  const [getData, setData] = useState([]);
-  useEffect(() => {
-    const getData = async () => {
-      const data = await getApi("getDashboard");
-      console.log(data);
-    };
-    getData();
-  }, []);
+  // const [getData, setData] = useState([]);
+  // useEffect(() => {
+  //   const getData = async () => {
+  //     const data = await getApi("getDashboard");
+  //     console.log(data);
+  //   };
+  //   getData();
+  // }, []);
   return (
     <div id="dashboard">
       <Navbar />
